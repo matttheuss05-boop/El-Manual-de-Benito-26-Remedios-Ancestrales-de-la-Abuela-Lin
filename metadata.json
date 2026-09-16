@@ -1,0 +1,8 @@
+{
+  "name": "El Manual de Benito: 26 Recetas Ancestrales de la Abuela Lin",
+  "description": "Mini página de ventas (pre-sell) móvil con estética vintage botanical apothecary optimizada para conversión.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

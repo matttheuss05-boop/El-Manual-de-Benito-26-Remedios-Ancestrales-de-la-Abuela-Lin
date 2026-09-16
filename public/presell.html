@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¡Hola! Qué alegría verte por aquí</title>
+
+  <!-- Otimização Extrema de Velocidade: DNS-Prefetch, Preconnect e Preload Imediato -->
+  <link rel="dns-prefetch" href="https://i.postimg.cc">
+  <link rel="preconnect" href="https://i.postimg.cc" crossorigin>
+  <link rel="preload" as="image" href="https://i.postimg.cc/ZKZ6fmSq/Woman-petting-dog-on-couch-2K-20260914122350.jpg" fetchpriority="high">
+  <link rel="preload" as="image" href="https://i.postimg.cc/KYVnQgG4/Books-and-tablet-digital-mockup-2K-20260916201118.jpg">
+
+  <!-- Google Fonts: Playfair Display + Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+
+  <style>
+    /* Reset & Base */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      background-color: #FDFBF7;
+      min-height: 100vh;
+      width: 100%;
+      font-family: 'Montserrat', sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* Container Centralizado para Desktop e 100% no Mobile */
+    .container {
+      width: 100%;
+      max-width: 480px;
+      margin: 0 auto;
+      min-height: 100vh;
+      background-color: #FDFBF7;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Header Image */
+    .header-image {
+      width: 100%;
+      height: 240px;
+      aspect-ratio: 2 / 1;
+      object-fit: cover;
+      display: block;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      background-color: #EDE8DC;
+    }
+
+    /* Área de Conteúdo */
+    .content {
+      padding: 32px 24px 40px 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      flex: 1;
+    }
+
+    /* Prova Social */
+    .social-proof {
+      font-size: 13px;
+      font-weight: 600;
+      color: #274E37;
+      margin-bottom: 8px;
+      letter-spacing: 0.01em;
+    }
+
+    /* Título H1 */
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 1.25;
+      color: #1A3322;
+      margin-bottom: 16px;
+      letter-spacing: -0.01em;
+    }
+
+    /* Subtítulo P */
+    p.subtitle {
+      font-size: 15.5px;
+      font-weight: 400;
+      line-height: 1.6;
+      color: #4A4A4A;
+      margin-bottom: 16px;
+    }
+
+    /* Destaque dos Bônus */
+    .bonus-highlight {
+      font-size: 14.5px;
+      font-weight: 700;
+      color: #274E37;
+      margin-bottom: 28px;
+      line-height: 1.4;
+    }
+
+    /* Capa do E-book / Mockup */
+    .ebook-cover {
+      width: 80%;
+      max-width: 340px;
+      aspect-ratio: 340 / 254;
+      height: auto;
+      display: block;
+      margin-bottom: 34px;
+      border-radius: 8px;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+      background-color: #EDE8DC;
+    }
+
+    /* Botão de CTA */
+    .cta-btn {
+      width: 100%;
+      background-color: #274E37;
+      color: #FFFFFF;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      text-decoration: none;
+      padding: 18px 20px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      letter-spacing: 0.02em;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 4px 14px rgba(39, 78, 55, 0.25);
+      animation: pulse 2.2s infinite ease-in-out;
+      transition: background-color 0.2s ease, transform 0.2s ease;
+    }
+
+    .cta-btn:hover {
+      background-color: #1E3D2B;
+    }
+
+    /* Animação Suave de Pulse */
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 4px 14px rgba(39, 78, 55, 0.25);
+      }
+      50% {
+        transform: scale(1.025);
+        box-shadow: 0 8px 22px rgba(39, 78, 55, 0.38);
+      }
+    }
+
+    /* Rodapé de Confiança */
+    .trust-badge {
+      font-size: 12.5px;
+      color: #8E8E8E;
+      font-weight: 500;
+      margin-top: 14px;
+      text-align: center;
+      display: inline-block;
+    }
+
+    /* Telas menores */
+    @media (max-width: 360px) {
+      .header-image {
+        height: 200px;
+      }
+      .content {
+        padding: 24px 16px 32px 16px;
+      }
+      h1 {
+        font-size: 24px;
+      }
+      p.subtitle {
+        font-size: 14px;
+      }
+      .cta-btn {
+        font-size: 14.5px;
+        padding: 16px 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <main class="container">
+    
+    <!-- Header Image - Ultra-rápido com Preload & Zero Layout Shift -->
+    <img 
+      src="https://i.postimg.cc/ZKZ6fmSq/Woman-petting-dog-on-couch-2K-20260914122350.jpg" 
+      alt="Mujer acariciando a su perro con cariño" 
+      class="header-image"
+      width="480"
+      height="240"
+      fetchpriority="high"
+      loading="eager"
+      decoding="async"
+      referrerpolicy="no-referrer"
+    >
+
+    <!-- Área de Conteúdo -->
+    <div class="content">
+      
+      <!-- Prova Social (Topo) -->
+      <p class="social-proof">⭐⭐⭐⭐⭐ Más de 1.000 perritos ayudados</p>
+
+      <!-- Título H1 -->
+      <h1>¡Hola! Qué alegría verte por aquí.</h1>
+
+      <!-- Subtítulo P -->
+      <p class="subtitle">Estás a un paso de descubrir mis 26 recetas ancestrales para que tu perrito viva sano, feliz y sin dolores.</p>
+
+      <!-- Destaque dos Bônus (Meio) -->
+      <p class="bonus-highlight">🎁 + Incluye 3 Bonos Exclusivos de Regalo (Solo por hoy).</p>
+
+      <!-- Capa do E-book / Mockup Digital de Livros e Tablet - Carregamento Instantâneo -->
+      <img 
+        src="https://i.postimg.cc/KYVnQgG4/Books-and-tablet-digital-mockup-2K-20260916201118.jpg" 
+        alt="Mockup do Livro e Tablet - 26 Recetas Ancestrales" 
+        class="ebook-cover"
+        width="340"
+        height="254"
+        loading="eager"
+        decoding="async"
+        referrerpolicy="no-referrer"
+      >
+
+      <!-- Botão de CTA com Ancoragem de Preço -->
+      <a href="https://buy.stripe.com/5kQaEZeASfPJgw077M4Ni01" class="cta-btn">
+        👉 ¡SÍ! QUIERO TODO POR SOLO US$ 9,90
+      </a>
+
+      <!-- Rodapé de Confiança -->
+      <span class="trust-badge">
+        🔒 Pago 100% Seguro por Stripe
+      </span>
+
+    </div>
+
+  </main>
+
+</body>
+</html>
